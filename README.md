@@ -10,7 +10,6 @@ Eine Sammlung frei verfügbarer, regelmäßig aktualisierter IP-Blacklists zur V
 | `dm_tor.list`                         | Aktive TOR-Exit- und -Relay-Nodes                | [Link](https://iplists.firehol.org/?ipset=dm_tor) |
 | `et_block.list`                       | Bekannte bösartige IPs von Emerging Threats      | [Link](https://iplists.firehol.org/?ipset=et_block) |
 | `firehol-level1.list`                 | Allgemeine bösartige IPs – niedriges Risiko      | [Link](https://iplists.firehol.org/?ipset=firehol-level1) |
-| `firehol_proxies.list`                | Offene Proxy-Server                              | [Link](https://iplists.firehol.org/?ipset=firehol_proxies) |
 | `firehol_webserver.list`              | Kompromittierte oder gefährliche Webserver       | [Link](https://iplists.firehol.org/?ipset=firehol_webserver) |
 | `greensnow.list`                      | Angreifer mit verdächtigem Verhalten             | [Link](https://iplists.firehol.org/?ipset=greensnow) |
 | `iblocklist_ciarmy_malicious.list`    | IPs mit bestätigtem bösartigem Verhalten         | [Link](https://iplists.firehol.org/?ipset=iblocklist_ciarmy_malicious) |
