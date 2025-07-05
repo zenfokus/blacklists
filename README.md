@@ -6,18 +6,17 @@ Eine Sammlung frei verfügbarer, regelmäßig aktualisierter IP-Blacklists zur V
 
 | Datei                                  | Beschreibung                                        | Quelle |
 |---------------------------------------|-----------------------------------------------------|--------|
-| `firehol-level1.txt`                  | FireHOL Level 1 – Allgemeine Bedrohungen           | [Link](https://raw.githubusercontent.com/borestad/firehol-mirror/refs/heads/main/firehol_level1.netset) |
-| `spamhaus_drop.txt`                   | Spamhaus DROP – Bösartige Netzwerke                | [Link](https://raw.githubusercontent.com/borestad/firehol-mirror/refs/heads/main/spamhaus_drop.netset) |
-| `spamhaus_edrop.txt`                  | Spamhaus eDROP – Erweiterte DROP-IPs               | [Link](https://raw.githubusercontent.com/borestad/firehol-mirror/refs/heads/main/spamhaus_edrop.netset) |
-| `cruzit_web_attacks.txt`              | CruZit – Web-Angriffe                              | [Link](https://raw.githubusercontent.com/borestad/firehol-mirror/refs/heads/main/cruzit_web_attacks.ipset) |
-| `iblocklist_cruzit_web_attacks.txt`   | IBlockList – CruZit Web Attacks (Netset)           | [Link](https://raw.githubusercontent.com/borestad/firehol-mirror/refs/heads/main/iblocklist_cruzit_web_attacks.netset) |
-| `iblocklist_ciarmy_malicious.txt`     | IBlockList – CIArmy Malicious (Netset)             | [Link](https://raw.githubusercontent.com/borestad/firehol-mirror/refs/heads/main/iblocklist_ciarmy_malicious.netset) |
-| `cybercrime.txt`                      | CyberCrime – IPv4 Blacklist                        | [Link](https://raw.githubusercontent.com/borestad/firehol-mirror/refs/heads/main/cybercrime.ipset) |
-| `dm_tor.txt`                          | Tor – Exit Nodes                                   | [Link](https://raw.githubusercontent.com/borestad/firehol-mirror/refs/heads/main/dm_tor.ipset) |
-| `et_block.txt`                        | Emerging Threats – Block List                      | [Link](https://raw.githubusercontent.com/borestad/firehol-mirror/refs/heads/main/et_block.netset) |
-| `darklist_de.txt`                     | Darklist.de – IP Blacklist                         | [Link](https://raw.githubusercontent.com/borestad/firehol-mirror/refs/heads/main/darklist_de.netset) |
-| `ipsum-level-2.txt`                   | Ipsum Level 2 – Aggressives IP-Blocking            | [Link](https://raw.githubusercontent.com/stamparm/ipsum/refs/heads/master/levels/2.txt) |
-| `greensnow.txt`                       | GreenSnow – Angreifer-IPs                          | [Link](https://raw.githubusercontent.com/borestad/firehol-mirror/refs/heads/main/greensnow.ipset) |
+| `blocklist_net_ua.list`               | Bösartige IPs laut blocklist.net.ua              | [Link](https://iplists.firehol.org/?ipset=blocklist_net_ua) |
+| `dm_tor.list`                         | Aktive TOR-Exit- und -Relay-Nodes                | [Link](https://iplists.firehol.org/?ipset=dm_tor) |
+| `et_block.list`                       | Bekannte bösartige IPs von Emerging Threats      | [Link](https://iplists.firehol.org/?ipset=et_block) |
+| `firehol-level1.list`                 | Allgemeine bösartige IPs – niedriges Risiko      | [Link](https://iplists.firehol.org/?ipset=firehol-level1) |
+| `firehol_proxies.list`                | Offene Proxy-Server                              | [Link](https://iplists.firehol.org/?ipset=firehol_proxies) |
+| `firehol_webserver.list`              | Kompromittierte oder gefährliche Webserver       | [Link](https://iplists.firehol.org/?ipset=firehol_webserver) |
+| `greensnow.list`                      | Angreifer mit verdächtigem Verhalten             | [Link](https://iplists.firehol.org/?ipset=greensnow) |
+| `iblocklist_ciarmy_malicious.list`    | IPs mit bestätigtem bösartigem Verhalten         | [Link](https://iplists.firehol.org/?ipset=iblocklist_ciarmy_malicious) |
+| `spamhaus_drop.list`                  | Spamhaus DROP – bekannte Cybercrime-Netze        | [Link](https://iplists.firehol.org/?ipset=spamhaus_drop) |
+| `spamhaus_edrop.list`                 | Spamhaus eDROP – erweiterte Cybercrime-IP-Liste  | [Link](https://iplists.firehol.org/?ipset=spamhaus_edrop) |
+| `stopforumspam.list`                  | IPs, die bei Forenspam aufgefallen sind          | [Link](https://iplists.firehol.org/?ipset=stopforumspam) |
 
 ## All-in-One Liste (AIO)
 
