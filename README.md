@@ -1,6 +1,6 @@
 # IP Threat Intelligence Lists
 
-A collection of freely available, regularly updated IP blacklists for use in firewalls, IDS/IPS, network security solutions, or threat hunting.
+A collection of freely available, regularly updated IP blacklists for use in firewalls, bunkerweb, apache waf, fail2ban, IDS/IPS, network security solutions, or threat hunting.
 
 ## Overview of sources
 
