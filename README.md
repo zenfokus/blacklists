@@ -31,5 +31,3 @@ This list is updated regularly and is ideal for productive use if only one centr
 ## License / Use
 
 All lists come from publicly available sources. Please note the respective terms of use of the original sources. This collection is intended solely for research and security analysis.
-
-Translated with DeepL.com (free version)
