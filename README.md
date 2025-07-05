@@ -1,33 +1,35 @@
 # IP Threat Intelligence Lists
 
-Eine Sammlung frei verfügbarer, regelmäßig aktualisierter IP-Blacklists zur Verwendung in Firewalls, IDS/IPS, Netzwerksicherheitslösungen oder beim Threat Hunting.
+A collection of freely available, regularly updated IP blacklists for use in firewalls, IDS/IPS, network security solutions, or threat hunting.
 
-## Übersicht der Quellen
+## Overview of sources
 
-| Datei                                  | Beschreibung                                        | Quelle |
+| File                                  | Description                                         | Source |
 |---------------------------------------|-----------------------------------------------------|--------|
-| `blocklist_net_ua.list`               | Bösartige IPs laut blocklist.net.ua              | [Link](https://iplists.firehol.org/?ipset=blocklist_net_ua) |
-| `dm_tor.list`                         | Aktive TOR-Exit- und -Relay-Nodes                | [Link](https://iplists.firehol.org/?ipset=dm_tor) |
-| `et_block.list`                       | Bekannte bösartige IPs von Emerging Threats      | [Link](https://iplists.firehol.org/?ipset=et_block) |
-| `firehol-level1.list`                 | Allgemeine bösartige IPs – niedriges Risiko      | [Link](https://iplists.firehol.org/?ipset=firehol-level1) |
-| `firehol_webserver.list`              | Kompromittierte oder gefährliche Webserver       | [Link](https://iplists.firehol.org/?ipset=firehol_webserver) |
-| `greensnow.list`                      | Angreifer mit verdächtigem Verhalten             | [Link](https://iplists.firehol.org/?ipset=greensnow) |
-| `iblocklist_ciarmy_malicious.list`    | IPs mit bestätigtem bösartigem Verhalten         | [Link](https://iplists.firehol.org/?ipset=iblocklist_ciarmy_malicious) |
-| `spamhaus_drop.list`                  | Spamhaus DROP – bekannte Cybercrime-Netze        | [Link](https://iplists.firehol.org/?ipset=spamhaus_drop) |
-| `spamhaus_edrop.list`                 | Spamhaus eDROP – erweiterte Cybercrime-IP-Liste  | [Link](https://iplists.firehol.org/?ipset=spamhaus_edrop) |
-| `stopforumspam.list`                  | IPs, die bei Forenspam aufgefallen sind          | [Link](https://iplists.firehol.org/?ipset=stopforumspam) |
+| `blocklist_net_ua.list`               | Malicious IPs according to blocklist.net.ua         | [Link](https://iplists.firehol.org/?ipset=blocklist_net_ua) |
+| `dm_tor.list`                         | Active TOR exit and relay nodes                     | [Link](https://iplists.firehol.org/?ipset=dm_tor) |
+| `et_block.list`                       | Known malicious IPs from Emerging Threats           | [Link](https://iplists.firehol.org/?ipset=et_block) |
+| `firehol-level1.list`                 | General malicious IPs – low risk                    | [Link](https://iplists.firehol.org/?ipset=firehol-level1) |
+| `firehol_webserver.list`              | Compromised or dangerous web servers                | [Link](https://iplists.firehol.org/?ipset=firehol_webserver) |
+| `greensnow.list`                      | Attackers with suspicious behavior                  | [Link](https://iplists.firehol.org/?ipset=greensnow) |
+| `iblocklist_ciarmy_malicious.list`    | IPs with confirmed malicious behavior               | [Link](https://iplists.firehol.org/?ipset=iblocklist_ciarmy_malicious) |
+| `spamhaus_drop.list`                  | Spamhaus DROP – known cybercrime networks           | [Link](https://iplists.firehol.org/?ipset=spamhaus_drop) |
+| `spamhaus_edrop.list`                 | Spamhaus eDROP – extended cybercrime IP list        | [Link](https://iplists.firehol.org/?ipset=spamhaus_edrop) |
+| `stopforumspam.list`                  | IPs that have been flagged for forum spam           | [Link](https://iplists.firehol.org/?ipset=stopforumspam) |
 
-## All-in-One Liste (AIO)
+## All-in-One List (AIO)
 
-Für eine einfache Integration in Firewalls oder Netzwerkanalysen steht eine konsolidierte Blacklist zur Verfügung, die alle oben genannten Quellen vereint:
+For easy integration into firewalls or network analyses, a consolidated blacklist is available that combines all of the above sources:
 
-**AIO-Blacklist:**  
+**AIO blacklist:**  
 [https://raw.githubusercontent.com/zenfokus/blacklists/refs/heads/main/aio/aio_blacklist.list](https://raw.githubusercontent.com/zenfokus/blacklists/refs/heads/main/aio/aio_blacklist.list)
 
-Diese Liste wird regelmäßig aktualisiert und eignet sich ideal für den produktiven Einsatz, wenn nur eine zentrale Datei verwendet werden soll.
+This list is updated regularly and is ideal for productive use if only one central file is to be used.
 
 ---
 
-## Lizenz / Nutzung
+## License / Use
 
-Alle Listen stammen aus öffentlich zugänglichen Quellen. Bitte beachte die jeweiligen Nutzungsbedingungen der Originalquellen. Diese Sammlung dient ausschließlich der Forschungs- und Sicherheitsanalyse.
+All lists come from publicly available sources. Please note the respective terms of use of the original sources. This collection is intended solely for research and security analysis.
+
+Translated with DeepL.com (free version)
