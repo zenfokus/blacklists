@@ -9,7 +9,7 @@ A collection of freely available, regularly updated IP blacklists for use in fir
 | `blocklist_net_ua.list`               | Malicious IPs according to blocklist.net.ua         | [Link](https://iplists.firehol.org/?ipset=blocklist_net_ua) |
 | `dm_tor.list`                         | Active TOR exit and relay nodes                     | [Link](https://iplists.firehol.org/?ipset=dm_tor) |
 | `et_block.list`                       | Known malicious IPs from Emerging Threats           | [Link](https://iplists.firehol.org/?ipset=et_block) |
-| `firehol-level1.list`                 | General malicious IPs – low risk                    | [Link](https://iplists.firehol.org/?ipset=firehol-level1) |
+| `firehol-level1.list`                 | General malicious IPs – low risk                    | [Link](https://iplists.firehol.org/?ipset=firehol_level1) |
 | `firehol_webserver.list`              | Compromised or dangerous web servers                | [Link](https://iplists.firehol.org/?ipset=firehol_webserver) |
 | `greensnow.list`                      | Attackers with suspicious behavior                  | [Link](https://iplists.firehol.org/?ipset=greensnow) |
 | `iblocklist_ciarmy_malicious.list`    | IPs with confirmed malicious behavior               | [Link](https://iplists.firehol.org/?ipset=iblocklist_ciarmy_malicious) |
