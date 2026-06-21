@@ -1,0 +1,27 @@
+name: Update Blacklists
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Hourly
+  workflow_dispatch: # Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-blacklists:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Make script executable
+        run: chmod +x scripts/gen-blacklists.sh
+
+      - name: Run script
+        run: ./scripts/gen-blacklists.sh
+
+      - name: Commit and Push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update blacklists"
