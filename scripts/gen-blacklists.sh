@@ -3,7 +3,7 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-BLACKLIST_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
+BLACKLIST_DIR="$(cd "$SCRIPT_DIR/.." && pwd)/output"
 
 declare -A URLS
 CONFIG_FILE="$SCRIPT_DIR/blacklists.conf"

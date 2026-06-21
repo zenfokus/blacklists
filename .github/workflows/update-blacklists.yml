@@ -21,7 +21,10 @@ jobs:
       - name: Run script
         run: ./scripts/gen-blacklists.sh
 
-      - name: Commit and Push changes
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Deploy to Release Branch
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          commit_message: "chore: update blacklists"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: release
+          publish_dir: ./output
+          force_orphan: true

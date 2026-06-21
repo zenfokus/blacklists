@@ -1,5 +1,10 @@
 # IP Threat Intelligence Lists
 
+> [!WARNING]
+> **IMPORTANT: BRANCH CHANGE**
+> To prevent massive repository bloat, all generated blocklists are now published to the `release` branch instead of `main`. 
+> If you are using raw GitHub URLs in your firewalls or scripts, **you must update your URLs** to point to the `release` branch.
+
 A collection of freely available, regularly updated IP blacklists for use in firewalls, bunkerweb, apache waf, fail2ban, IDS/IPS, network security solutions, or threat hunting.
 
 ## Overview of sources
@@ -22,7 +27,7 @@ A collection of freely available, regularly updated IP blacklists for use in fir
 For easy integration into firewalls or network analyses, a consolidated blacklist is available that combines all of the above sources:
 
 **AIO blacklist:**  
-[https://raw.githubusercontent.com/zenfokus/blacklists/refs/heads/main/aio/aio_blacklist.list](https://raw.githubusercontent.com/zenfokus/blacklists/refs/heads/main/aio/aio_blacklist.list)
+[https://raw.githubusercontent.com/zenfokus/blacklists/refs/heads/release/aio/aio_blacklist.list](https://raw.githubusercontent.com/zenfokus/blacklists/refs/heads/release/aio/aio_blacklist.list)
 
 This list is updated regularly and is ideal for productive use if only one central file is to be used.
 
