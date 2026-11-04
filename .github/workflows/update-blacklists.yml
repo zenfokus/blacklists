@@ -1,0 +1,35 @@
+name: Update Blacklists
+
+on:
+  schedule:
+    - cron: '17 */6 * * *' # Every 6 hours
+  workflow_dispatch: # Manual trigger
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-blacklists
+  cancel-in-progress: true
+
+jobs:
+  update-blacklists:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Make script executable
+        run: chmod +x scripts/gen-blacklists.sh
+
+      - name: Run script
+        run: ./scripts/gen-blacklists.sh
+
+      - name: Deploy to Release Branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: release
+          publish_dir: ./output
+          force_orphan: true
